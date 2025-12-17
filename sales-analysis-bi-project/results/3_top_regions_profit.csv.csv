@@ -1,0 +1,70 @@
+Region;Category;Total_Sales;Total_Profit
+Western Europe;Office Supplies;599529;95942
+Western Europe;Technology;656076;81798
+Central America;Technology;461129;74331
+Eastern Asia;Technology;315146;72605
+Southern Asia;Technology;351520;67785
+Southern Asia;Furniture;314084;56071
+Oceania;Technology;407614;54564
+Central America;Office Supplies;317865;53671
+Eastern Asia;Furniture;336124;52059
+Western US;Office Supplies;219950;51840
+Eastern US;Technology;264572;47306
+Western US;Technology;251576;44026
+Northern Europe;Technology;252757;43123
+Eastern Asia;Office Supplies;202597;41516
+Eastern US;Office Supplies;204645;40431
+Southern Europe;Office Supplies;241719;39284
+Western Europe;Furniture;473407;38842
+Southern Asia;Office Supplies;199662;34455
+Central US;Technology;170110;33500
+Oceania;Office Supplies;280710;32902
+Oceania;Furniture;410110;31921
+Central America;Furniture;441375;29498
+Eastern Europe;Furniture;98000;25772
+Eastern Europe;Office Supplies;103144;25665
+Eastern Europe;Technology;108117;24913
+Northern Europe;Office Supplies;215381;23867
+North Africa;Technology;86591;21532
+Southeastern Asia;Technology;329417;20929
+North Africa;Office Supplies;85104;20338
+Southern US;Technology;148557;19862
+Southern US;Office Supplies;125158;19684
+Southern Europe;Technology;215509;18856
+Northern Europe;Furniture;167536;16485
+Central Africa;Technology;61624;15538
+North Africa;Furniture;60889;15347
+Caribbean;Office Supplies;89118;14565
+Caribbean;Technology;116168;13455
+South America;Technology;210404;12266
+Southern Africa;Technology;51266;11718
+Southern Europe;Furniture;150297;11360
+Western US;Furniture;252047;11248
+Central Africa;Office Supplies;45129;10461
+South America;Office Supplies;154082;9681
+Central Africa;Furniture;36554;9073
+Central US;Office Supplies;166355;8529
+Eastern Africa;Office Supplies;51024;8271
+Eastern Africa;Technology;44118;7970
+Canada;Office Supplies;29890;7826
+Canada;Technology;26267;7221
+Southern Africa;Office Supplies;28640;6878
+Southern US;Furniture;117050;6652
+Caribbean;Furniture;118184;6184
+South America;Furniture;251281;5699
+Eastern Africa;Furniture;32350;5427
+Southern Africa;Furniture;25045;5349
+Southeastern Asia;Office Supplies;240404;4319
+Eastern US;Furniture;207862;2891
+Canada;Furniture;10573;2591
+Central Asia;Furniture;3159;-1736
+Central Asia;Technology;8170;-2643
+Central US;Furniture;163422;-2786
+Central Asia;Office Supplies;7881;-2876
+Southeastern Asia;Furniture;313040;-7328
+Western Africa;Technology;78323;-12872
+Western Asia;Technology;124074;-16734
+Western Asia;Furniture;83587;-18203
+Western Africa;Office Supplies;55340;-18246
+Western Asia;Office Supplies;108199;-18734
+Western Africa;Furniture;39508;-19103

@@ -1,0 +1,73 @@
+
+-- Проект: Анализ розничных продаж (Global Superstore)
+-- Инструмент: SQLite (совместим с DBeaver, Tableau через CSV)
+
+
+1. Общая статистика: сколько заказов, клиентов (по городам), продаж и прибыли?
+SELECT 
+  COUNT(*) AS Total_Orders,
+  COUNT(DISTINCT City) AS Unique_Cities,
+  ROUND(SUM(Sales), 2) AS Total_Sales,
+  ROUND(SUM(Profit), 2) AS Total_Profit,
+  ROUND(AVG(Profit / Sales) * 100, 2) AS Avg_Profit_Margin_Pct
+FROM Global_Superstore;
+
+2. Прибыль по регионам и категориям
+
+SELECT 
+  Region,
+  Category,
+  SUM(Sales) AS Total_Sales,
+  SUM(Profit) AS Total_Profit,
+  ROUND(AVG(Profit / Sales) * 100, 2) AS Profit_Margin_Pct
+FROM sales
+GROUP BY Region, Category
+ORDER BY Total_Profit DESC;
+
+3. Прибыль по категориям и подкатегориям (где зарабатываем?)
+SELECT 
+  Category,
+  "Sub-Category",
+  ROUND(SUM(Profit), 2) AS Total_Profit,
+  ROUND(SUM(Sales), 2) AS Total_Sales,
+  ROUND(AVG(Profit / Sales) * 100, 2) AS Margin_Pct
+FROM Global_Superstore
+GROUP BY Category, "Sub-Category"
+ORDER BY Total_Profit DESC;
+
+4. Продукты, приносящие прибыль
+
+SELECT 
+  "Product Name",
+  Category,
+  "Sub-Category",
+  SUM(Profit) AS Total_Profit
+FROM Global_Superstore
+GROUP BY "Product Name", Category, "Sub-Category"
+ORDER BY Total_Profit DESC
+LIMIT 15;
+
+
+5. Убыточные продукты: товары с отрицательной прибылью
+
+SELECT 
+  "Product Name",
+  Category,
+  "Sub-Category",
+  ROUND(SUM(Profit), 2) AS Total_Profit,
+  ROUND(SUM("Shipping Cost"), 2) AS Total_Shipping_Cost,
+  SUM(Quantity) AS Total_Quantity
+FROM Global_Superstore
+WHERE Profit < 0
+GROUP BY "Product Name", Category, "Sub-Category"
+ORDER BY Total_Profit ASC
+LIMIT 15;
+
+
+
+
+
+
+
+
+
