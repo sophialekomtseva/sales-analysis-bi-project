@@ -1,3 +1,5 @@
+<img width="1920" height="1040" alt="2026-09-08_21-58-13" src="https://github.com/user-attachments/assets/a6bdab39-7b16-417e-bb2a-e19098f64627" />
+
 Sales Analysis BI Project
 
 Анализ розничных продаж для выявления ключевых драйверов прибыли и убыточных зон.
@@ -12,7 +14,6 @@ Sales Analysis BI Project
 
 - SQL (SQLite) — для агрегации и фильтрации данных.
 - Tableau — для визуализации и сторителлинга.
-
 
 Ключевые инсайты
 
